@@ -1,6 +1,6 @@
 html {
     box-sizing: border-box;
-    font-family: "Arial Rounded MT Bold","Helvetica Rounded",Arial,sans-serif
+    font-family: "Helvetica",Arial,sans-serif
   }
   *, *:before, *:after {
     box-sizing: inherit;
@@ -18,11 +18,16 @@ html {
   h2 {
     margin-top: 0;
     padding-top: .8em;
+    text-align: center;
   }
 
   nav {
     position: relative;
     perspective: 600px;
+  }
+
+  .mypic {
+      height: 45px
   }
 
   .cool > li > a {
@@ -125,7 +130,7 @@ html {
 
   .dropdown a {
     text-decoration: none;
-    color: #ffc600;
+    color: #d2780a;
   }
 
   a.button {
@@ -139,5 +144,5 @@ html {
 
   /* Matches Twitter, TWITTER, twitter, tWitter, TWiTTeR... */
   .button[href*=twitter] { background: #019FE9; }
-  .button[href*=facebook] { background: #3B5998; }
-  .button[href*=courses] { background: #ffc600; }
+  .button[href*=github] { background: #888888; }
+  .button[href*=linkedin] { background: #3B5998; }
